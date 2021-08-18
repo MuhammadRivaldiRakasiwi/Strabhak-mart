@@ -1,0 +1,58 @@
+
+
+.navbar{
+    background-color: red;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin-top: -80px;
+  }
+
+  .container-fluid{
+      margin-top: 80px;
+  }
+
+  .navbar a{
+    text-decoration: none;
+    color : white;
+    font-weight: lighter;
+  }
+
+  .judulist {
+    height: 50px;
+    
+  }
+
+  #produk {
+    display: flex;
+    justify-content: space-around;
+    float: right;
+  }
+
+  #row2 {
+    width: 60%;
+    margin-top: -150px;
+  }
+
+  .card {
+    line-height: 10px;
+    margin-bottom: -130px
+  }
+
+  .card button{
+      width: 120px;
+      background: white;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+      border-radius: 30px;
+      color: red;
+      z-index: 1;
+      font-weight: 400;
+      letter-spacing: 1px;
+      transition: 0.25s;
+  }
+
+  .card button:hover{
+      letter-spacing: 3px;
+  }
+
+  
